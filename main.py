@@ -3,7 +3,7 @@ import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 #import nltk
-#import streamlit as st 
+import streamlit as st 
 #import re
 #import string
 import numpy as np
