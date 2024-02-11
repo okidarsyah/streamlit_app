@@ -156,3 +156,14 @@ st.dataframe(
     use_container_width=True,
     hide_index=True
      )
+
+akurasi = [[90,10,80.29,72.57,85.63],[80,20,80.87,72.09,85.62],[70,30,80.79,70.19,84.98],[60,40,79.59,71.13,84.43],[50,50,79.31,69.60,83.99],[40,60,79.59,71.13,84.43],[30,70,75.64,66.78,80.09],[20,80,70.14,59.06,74.86],[10,90,64.71,49.74,65.90]]
+
+#Membuat data frame
+df_hasil = pd.DataFrame(akurasi, columns=['data_train', 'data_tes', 'SVM', 'Naive', 'R_Forest'])
+
+st.dataframe(
+    df_hasil,
+    use_container_width=True,
+    hide_index=True
+     )
