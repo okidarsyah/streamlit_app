@@ -5,7 +5,7 @@ google-play-scraper
 #sastrawi
 #wordcloud
 numpy
-#seaborn
+seaborn
 #re
 #nltk
 #string
