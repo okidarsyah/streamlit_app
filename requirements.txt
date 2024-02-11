@@ -2,10 +2,10 @@ streamlit
 pandas
 matplotlib
 google-play-scraper
-sastrawi
-wordcloud
+#sastrawi
+#wordcloud
 numpy
-seaborn
-re
-nltk
-string
+#seaborn
+#re
+#nltk
+#string
